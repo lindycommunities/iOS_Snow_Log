@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683AB14A1E80354C000439DD /* Quantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB1381E80354C000439DD /* Quantity.m */; };
+		683AB14B1E80354C000439DD /* GetQuantityListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB13A1E80354C000439DD /* GetQuantityListResponse.m */; };
+		683AB14C1E80354C000439DD /* Weight.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB13D1E80354C000439DD /* Weight.m */; };
+		683AB14D1E80354C000439DD /* GetWeightListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB13F1E80354C000439DD /* GetWeightListResponse.m */; };
+		683AB14E1E80354C000439DD /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB1421E80354C000439DD /* Equipment.m */; };
+		683AB14F1E80354C000439DD /* GetEquipmentListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB1441E80354C000439DD /* GetEquipmentListResponse.m */; };
+		683AB1551E80A1EF000439DD /* AddSnowLogRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB1541E80A1EF000439DD /* AddSnowLogRequest.m */; };
+		683AB1591E80AA7F000439DD /* GetSnowLogResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB1581E80AA7F000439DD /* GetSnowLogResponse.m */; };
+		683AB15D1E80AC53000439DD /* AddSnowLogImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB15C1E80AC53000439DD /* AddSnowLogImageRequest.m */; };
+		687BD9151E7E4B1E00EAD318 /* GetPropertyListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9101E7E4B1E00EAD318 /* GetPropertyListResponse.m */; };
+		687BD9161E7E4B1E00EAD318 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9121E7E4B1E00EAD318 /* Property.m */; };
+		687BD9171E7E4B1E00EAD318 /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9141E7E4B1E00EAD318 /* WebServiceManager.m */; };
+		687BD91B1E7E4CF700EAD318 /* SLBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD91A1E7E4CF700EAD318 /* SLBaseManager.m */; };
+		687BD91E1E7E4D5400EAD318 /* SLBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD91D1E7E4D5400EAD318 /* SLBaseRequest.m */; };
+		687BD9211E7E4DAB00EAD318 /* SLBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9201E7E4DAB00EAD318 /* SLBaseResponse.m */; };
+		687BD9241E7E527B00EAD318 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9231E7E527B00EAD318 /* BaseViewController.m */; };
+		687BD9271E7E8E8100EAD318 /* SLSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9261E7E8E8100EAD318 /* SLSelectionViewController.m */; };
+		687BD92A1E7EA5A000EAD318 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9291E7EA5A000EAD318 /* ViewController1.m */; };
+		687BD92E1E7F8ECB00EAD318 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD92D1E7F8ECB00EAD318 /* ViewController2.m */; };
+		687BD9341E7F946800EAD318 /* DateAndTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9301E7F946800EAD318 /* DateAndTimePickerViewController.m */; };
+		687BD9351E7F946800EAD318 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BD9321E7F946800EAD318 /* DatePickerViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		687BD9361E7F946800EAD318 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687BD9331E7F946800EAD318 /* DatePickerViewController.xib */; };
+		68BAE8481E7D3CEE005B9221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BAE8471E7D3CEE005B9221 /* main.m */; };
+		68BAE84B1E7D3CEE005B9221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BAE84A1E7D3CEE005B9221 /* AppDelegate.m */; };
+		68BAE84E1E7D3CEE005B9221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BAE84D1E7D3CEE005B9221 /* ViewController.m */; };
+		68BAE8511E7D3CEF005B9221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BAE84F1E7D3CEF005B9221 /* Main.storyboard */; };
+		68BAE8531E7D3CEF005B9221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BAE8521E7D3CEF005B9221 /* Assets.xcassets */; };
+		68BAE8561E7D3CEF005B9221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BAE8541E7D3CEF005B9221 /* LaunchScreen.storyboard */; };
+		68FB821D1E7E2F3000D9A52F /* VSDropdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB821C1E7E2F3000D9A52F /* VSDropdown.m */; };
+		68FB82261E7E308C00D9A52F /* CustomError.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB82201E7E308C00D9A52F /* CustomError.m */; };
+		68FB82271E7E308C00D9A52F /* SLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB82231E7E308C00D9A52F /* SLBaseModel.m */; };
+		68FB82281E7E308C00D9A52F /* SLWebRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB82251E7E308C00D9A52F /* SLWebRequestHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		683AB1371E80354C000439DD /* Quantity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quantity.h; sourceTree = "<group>"; };
+		683AB1381E80354C000439DD /* Quantity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quantity.m; sourceTree = "<group>"; };
+		683AB1391E80354C000439DD /* GetQuantityListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetQuantityListResponse.h; sourceTree = "<group>"; };
+		683AB13A1E80354C000439DD /* GetQuantityListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetQuantityListResponse.m; sourceTree = "<group>"; };
+		683AB13C1E80354C000439DD /* Weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight.h; sourceTree = "<group>"; };
+		683AB13D1E80354C000439DD /* Weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weight.m; sourceTree = "<group>"; };
+		683AB13E1E80354C000439DD /* GetWeightListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetWeightListResponse.h; sourceTree = "<group>"; };
+		683AB13F1E80354C000439DD /* GetWeightListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetWeightListResponse.m; sourceTree = "<group>"; };
+		683AB1411E80354C000439DD /* Equipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
+		683AB1421E80354C000439DD /* Equipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipment.m; sourceTree = "<group>"; };
+		683AB1431E80354C000439DD /* GetEquipmentListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetEquipmentListResponse.h; sourceTree = "<group>"; };
+		683AB1441E80354C000439DD /* GetEquipmentListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetEquipmentListResponse.m; sourceTree = "<group>"; };
+		683AB1531E80A1EF000439DD /* AddSnowLogRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSnowLogRequest.h; sourceTree = "<group>"; };
+		683AB1541E80A1EF000439DD /* AddSnowLogRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSnowLogRequest.m; sourceTree = "<group>"; };
+		683AB1571E80AA7F000439DD /* GetSnowLogResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSnowLogResponse.h; sourceTree = "<group>"; };
+		683AB1581E80AA7F000439DD /* GetSnowLogResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSnowLogResponse.m; sourceTree = "<group>"; };
+		683AB15B1E80AC53000439DD /* AddSnowLogImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSnowLogImageRequest.h; sourceTree = "<group>"; };
+		683AB15C1E80AC53000439DD /* AddSnowLogImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSnowLogImageRequest.m; sourceTree = "<group>"; };
+		687BD90F1E7E4B1E00EAD318 /* GetPropertyListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPropertyListResponse.h; sourceTree = "<group>"; };
+		687BD9101E7E4B1E00EAD318 /* GetPropertyListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPropertyListResponse.m; sourceTree = "<group>"; };
+		687BD9111E7E4B1E00EAD318 /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		687BD9121E7E4B1E00EAD318 /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
+		687BD9131E7E4B1E00EAD318 /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		687BD9141E7E4B1E00EAD318 /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		687BD9191E7E4CF700EAD318 /* SLBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBaseManager.h; sourceTree = "<group>"; };
+		687BD91A1E7E4CF700EAD318 /* SLBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBaseManager.m; sourceTree = "<group>"; };
+		687BD91C1E7E4D5400EAD318 /* SLBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBaseRequest.h; sourceTree = "<group>"; };
+		687BD91D1E7E4D5400EAD318 /* SLBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBaseRequest.m; sourceTree = "<group>"; };
+		687BD91F1E7E4DAB00EAD318 /* SLBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBaseResponse.h; sourceTree = "<group>"; };
+		687BD9201E7E4DAB00EAD318 /* SLBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBaseResponse.m; sourceTree = "<group>"; };
+		687BD9221E7E527B00EAD318 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		687BD9231E7E527B00EAD318 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		687BD9251E7E8E8100EAD318 /* SLSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSelectionViewController.h; sourceTree = "<group>"; };
+		687BD9261E7E8E8100EAD318 /* SLSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSelectionViewController.m; sourceTree = "<group>"; };
+		687BD9281E7EA5A000EAD318 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		687BD9291E7EA5A000EAD318 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		687BD92C1E7F8ECB00EAD318 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		687BD92D1E7F8ECB00EAD318 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		687BD92F1E7F946800EAD318 /* DateAndTimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateAndTimePickerViewController.h; sourceTree = "<group>"; };
+		687BD9301E7F946800EAD318 /* DateAndTimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateAndTimePickerViewController.m; sourceTree = "<group>"; };
+		687BD9311E7F946800EAD318 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		687BD9321E7F946800EAD318 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		687BD9331E7F946800EAD318 /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		68BAE8431E7D3CEE005B9221 /* Snow Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snow Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BAE8471E7D3CEE005B9221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68BAE8491E7D3CEE005B9221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68BAE84A1E7D3CEE005B9221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68BAE84C1E7D3CEE005B9221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68BAE84D1E7D3CEE005B9221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68BAE8501E7D3CEF005B9221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68BAE8521E7D3CEF005B9221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68BAE8551E7D3CEF005B9221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68BAE8571E7D3CEF005B9221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68FB821B1E7E2F3000D9A52F /* VSDropdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSDropdown.h; sourceTree = "<group>"; };
+		68FB821C1E7E2F3000D9A52F /* VSDropdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSDropdown.m; sourceTree = "<group>"; };
+		68FB821F1E7E308C00D9A52F /* CustomError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomError.h; sourceTree = "<group>"; };
+		68FB82201E7E308C00D9A52F /* CustomError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomError.m; sourceTree = "<group>"; };
+		68FB82211E7E308C00D9A52F /* ServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceResponse.h; sourceTree = "<group>"; };
+		68FB82221E7E308C00D9A52F /* SLBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBaseModel.h; sourceTree = "<group>"; };
+		68FB82231E7E308C00D9A52F /* SLBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBaseModel.m; sourceTree = "<group>"; };
+		68FB82241E7E308C00D9A52F /* SLWebRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLWebRequestHelper.h; sourceTree = "<group>"; };
+		68FB82251E7E308C00D9A52F /* SLWebRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLWebRequestHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68BAE8401E7D3CED005B9221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683AB1361E80354C000439DD /* Quantity */ = {
+			isa = PBXGroup;
+			children = (
+				683AB1371E80354C000439DD /* Quantity.h */,
+				683AB1381E80354C000439DD /* Quantity.m */,
+				683AB1391E80354C000439DD /* GetQuantityListResponse.h */,
+				683AB13A1E80354C000439DD /* GetQuantityListResponse.m */,
+			);
+			name = Quantity;
+			path = Calcium;
+			sourceTree = "<group>";
+		};
+		683AB13B1E80354C000439DD /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				683AB13C1E80354C000439DD /* Weight.h */,
+				683AB13D1E80354C000439DD /* Weight.m */,
+				683AB13E1E80354C000439DD /* GetWeightListResponse.h */,
+				683AB13F1E80354C000439DD /* GetWeightListResponse.m */,
+			);
+			name = Weight;
+			path = Bags;
+			sourceTree = "<group>";
+		};
+		683AB1401E80354C000439DD /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				683AB1411E80354C000439DD /* Equipment.h */,
+				683AB1421E80354C000439DD /* Equipment.m */,
+				683AB1431E80354C000439DD /* GetEquipmentListResponse.h */,
+				683AB1441E80354C000439DD /* GetEquipmentListResponse.m */,
+			);
+			path = Equipment;
+			sourceTree = "<group>";
+		};
+		683AB1521E80A1EF000439DD /* AddSnowLog */ = {
+			isa = PBXGroup;
+			children = (
+				683AB1531E80A1EF000439DD /* AddSnowLogRequest.h */,
+				683AB1541E80A1EF000439DD /* AddSnowLogRequest.m */,
+			);
+			path = AddSnowLog;
+			sourceTree = "<group>";
+		};
+		683AB1561E80AA7F000439DD /* SnowLogForm */ = {
+			isa = PBXGroup;
+			children = (
+				683AB1571E80AA7F000439DD /* GetSnowLogResponse.h */,
+				683AB1581E80AA7F000439DD /* GetSnowLogResponse.m */,
+			);
+			path = SnowLogForm;
+			sourceTree = "<group>";
+		};
+		683AB15A1E80AC53000439DD /* AddSnowLogImages */ = {
+			isa = PBXGroup;
+			children = (
+				683AB15B1E80AC53000439DD /* AddSnowLogImageRequest.h */,
+				683AB15C1E80AC53000439DD /* AddSnowLogImageRequest.m */,
+			);
+			path = AddSnowLogImages;
+			sourceTree = "<group>";
+		};
+		687BD90B1E7E4B1E00EAD318 /* Web Service Manager */ = {
+			isa = PBXGroup;
+			children = (
+				687BD9181E7E4CF700EAD318 /* Managers */,
+				687BD90C1E7E4B1E00EAD318 /* Request */,
+				687BD90D1E7E4B1E00EAD318 /* Response */,
+				687BD9131E7E4B1E00EAD318 /* WebServiceManager.h */,
+				687BD9141E7E4B1E00EAD318 /* WebServiceManager.m */,
+			);
+			path = "Web Service Manager";
+			sourceTree = "<group>";
+		};
+		687BD90C1E7E4B1E00EAD318 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				683AB15A1E80AC53000439DD /* AddSnowLogImages */,
+				683AB1521E80A1EF000439DD /* AddSnowLog */,
+				687BD91C1E7E4D5400EAD318 /* SLBaseRequest.h */,
+				687BD91D1E7E4D5400EAD318 /* SLBaseRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		687BD90D1E7E4B1E00EAD318 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				683AB1561E80AA7F000439DD /* SnowLogForm */,
+				683AB1361E80354C000439DD /* Quantity */,
+				683AB13B1E80354C000439DD /* Weight */,
+				683AB1401E80354C000439DD /* Equipment */,
+				687BD90E1E7E4B1E00EAD318 /* Property */,
+				687BD91F1E7E4DAB00EAD318 /* SLBaseResponse.h */,
+				687BD9201E7E4DAB00EAD318 /* SLBaseResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		687BD90E1E7E4B1E00EAD318 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				687BD90F1E7E4B1E00EAD318 /* GetPropertyListResponse.h */,
+				687BD9101E7E4B1E00EAD318 /* GetPropertyListResponse.m */,
+				687BD9111E7E4B1E00EAD318 /* Property.h */,
+				687BD9121E7E4B1E00EAD318 /* Property.m */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		687BD9181E7E4CF700EAD318 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				687BD9191E7E4CF700EAD318 /* SLBaseManager.h */,
+				687BD91A1E7E4CF700EAD318 /* SLBaseManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		68BAE83A1E7D3CED005B9221 = {
+			isa = PBXGroup;
+			children = (
+				68FB821E1E7E308C00D9A52F /* WebService Helper */,
+				68BAE8451E7D3CEE005B9221 /* Snow Log */,
+				68BAE8441E7D3CEE005B9221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68BAE8441E7D3CEE005B9221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68BAE8431E7D3CEE005B9221 /* Snow Log.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68BAE8451E7D3CEE005B9221 /* Snow Log */ = {
+			isa = PBXGroup;
+			children = (
+				687BD90B1E7E4B1E00EAD318 /* Web Service Manager */,
+				68FB821B1E7E2F3000D9A52F /* VSDropdown.h */,
+				68FB821C1E7E2F3000D9A52F /* VSDropdown.m */,
+				687BD92F1E7F946800EAD318 /* DateAndTimePickerViewController.h */,
+				687BD9301E7F946800EAD318 /* DateAndTimePickerViewController.m */,
+				687BD9311E7F946800EAD318 /* DatePickerViewController.h */,
+				687BD9321E7F946800EAD318 /* DatePickerViewController.m */,
+				687BD9331E7F946800EAD318 /* DatePickerViewController.xib */,
+				687BD9251E7E8E8100EAD318 /* SLSelectionViewController.h */,
+				687BD9261E7E8E8100EAD318 /* SLSelectionViewController.m */,
+				68BAE8491E7D3CEE005B9221 /* AppDelegate.h */,
+				68BAE84A1E7D3CEE005B9221 /* AppDelegate.m */,
+				687BD9221E7E527B00EAD318 /* BaseViewController.h */,
+				687BD9231E7E527B00EAD318 /* BaseViewController.m */,
+				687BD9281E7EA5A000EAD318 /* ViewController1.h */,
+				687BD9291E7EA5A000EAD318 /* ViewController1.m */,
+				68BAE84C1E7D3CEE005B9221 /* ViewController.h */,
+				68BAE84D1E7D3CEE005B9221 /* ViewController.m */,
+				687BD92C1E7F8ECB00EAD318 /* ViewController2.h */,
+				687BD92D1E7F8ECB00EAD318 /* ViewController2.m */,
+				68BAE84F1E7D3CEF005B9221 /* Main.storyboard */,
+				68BAE8521E7D3CEF005B9221 /* Assets.xcassets */,
+				68BAE8541E7D3CEF005B9221 /* LaunchScreen.storyboard */,
+				68BAE8571E7D3CEF005B9221 /* Info.plist */,
+				68BAE8461E7D3CEE005B9221 /* Supporting Files */,
+			);
+			path = "Snow Log";
+			sourceTree = "<group>";
+		};
+		68BAE8461E7D3CEE005B9221 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68BAE8471E7D3CEE005B9221 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68FB821E1E7E308C00D9A52F /* WebService Helper */ = {
+			isa = PBXGroup;
+			children = (
+				68FB821F1E7E308C00D9A52F /* CustomError.h */,
+				68FB82201E7E308C00D9A52F /* CustomError.m */,
+				68FB82211E7E308C00D9A52F /* ServiceResponse.h */,
+				68FB82221E7E308C00D9A52F /* SLBaseModel.h */,
+				68FB82231E7E308C00D9A52F /* SLBaseModel.m */,
+				68FB82241E7E308C00D9A52F /* SLWebRequestHelper.h */,
+				68FB82251E7E308C00D9A52F /* SLWebRequestHelper.m */,
+			);
+			path = "WebService Helper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68BAE8421E7D3CED005B9221 /* Snow Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BAE85A1E7D3CEF005B9221 /* Build configuration list for PBXNativeTarget "Snow Log" */;
+			buildPhases = (
+				68BAE83F1E7D3CED005B9221 /* Sources */,
+				68BAE8401E7D3CED005B9221 /* Frameworks */,
+				68BAE8411E7D3CED005B9221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snow Log";
+			productName = "Snow Log";
+			productReference = 68BAE8431E7D3CEE005B9221 /* Snow Log.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68BAE83B1E7D3CED005B9221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Snow Log";
+				TargetAttributes = {
+					68BAE8421E7D3CED005B9221 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 855T5P928B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68BAE83E1E7D3CED005B9221 /* Build configuration list for PBXProject "Snow Log" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68BAE83A1E7D3CED005B9221;
+			productRefGroup = 68BAE8441E7D3CEE005B9221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68BAE8421E7D3CED005B9221 /* Snow Log */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68BAE8411E7D3CED005B9221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687BD9361E7F946800EAD318 /* DatePickerViewController.xib in Resources */,
+				68BAE8561E7D3CEF005B9221 /* LaunchScreen.storyboard in Resources */,
+				68BAE8531E7D3CEF005B9221 /* Assets.xcassets in Resources */,
+				68BAE8511E7D3CEF005B9221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68BAE83F1E7D3CED005B9221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687BD9161E7E4B1E00EAD318 /* Property.m in Sources */,
+				683AB15D1E80AC53000439DD /* AddSnowLogImageRequest.m in Sources */,
+				683AB1551E80A1EF000439DD /* AddSnowLogRequest.m in Sources */,
+				68BAE84E1E7D3CEE005B9221 /* ViewController.m in Sources */,
+				68FB82281E7E308C00D9A52F /* SLWebRequestHelper.m in Sources */,
+				687BD9151E7E4B1E00EAD318 /* GetPropertyListResponse.m in Sources */,
+				68FB82271E7E308C00D9A52F /* SLBaseModel.m in Sources */,
+				687BD9241E7E527B00EAD318 /* BaseViewController.m in Sources */,
+				683AB14E1E80354C000439DD /* Equipment.m in Sources */,
+				68FB821D1E7E2F3000D9A52F /* VSDropdown.m in Sources */,
+				68BAE84B1E7D3CEE005B9221 /* AppDelegate.m in Sources */,
+				683AB1591E80AA7F000439DD /* GetSnowLogResponse.m in Sources */,
+				687BD91E1E7E4D5400EAD318 /* SLBaseRequest.m in Sources */,
+				687BD9271E7E8E8100EAD318 /* SLSelectionViewController.m in Sources */,
+				683AB14D1E80354C000439DD /* GetWeightListResponse.m in Sources */,
+				683AB14A1E80354C000439DD /* Quantity.m in Sources */,
+				687BD91B1E7E4CF700EAD318 /* SLBaseManager.m in Sources */,
+				683AB14C1E80354C000439DD /* Weight.m in Sources */,
+				687BD9351E7F946800EAD318 /* DatePickerViewController.m in Sources */,
+				683AB14B1E80354C000439DD /* GetQuantityListResponse.m in Sources */,
+				683AB14F1E80354C000439DD /* GetEquipmentListResponse.m in Sources */,
+				687BD9341E7F946800EAD318 /* DateAndTimePickerViewController.m in Sources */,
+				687BD9171E7E4B1E00EAD318 /* WebServiceManager.m in Sources */,
+				687BD92A1E7EA5A000EAD318 /* ViewController1.m in Sources */,
+				687BD9211E7E4DAB00EAD318 /* SLBaseResponse.m in Sources */,
+				68BAE8481E7D3CEE005B9221 /* main.m in Sources */,
+				687BD92E1E7F8ECB00EAD318 /* ViewController2.m in Sources */,
+				68FB82261E7E308C00D9A52F /* CustomError.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68BAE84F1E7D3CEF005B9221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68BAE8501E7D3CEF005B9221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68BAE8541E7D3CEF005B9221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68BAE8551E7D3CEF005B9221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68BAE8581E7D3CEF005B9221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68BAE8591E7D3CEF005B9221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68BAE85B1E7D3CEF005B9221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 855T5P928B;
+				INFOPLIST_FILE = "Snow Log/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Snow-Log.Snow-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68BAE85C1E7D3CEF005B9221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 855T5P928B;
+				INFOPLIST_FILE = "Snow Log/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Snow-Log.Snow-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68BAE83E1E7D3CED005B9221 /* Build configuration list for PBXProject "Snow Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BAE8581E7D3CEF005B9221 /* Debug */,
+				68BAE8591E7D3CEF005B9221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BAE85A1E7D3CEF005B9221 /* Build configuration list for PBXNativeTarget "Snow Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BAE85B1E7D3CEF005B9221 /* Debug */,
+				68BAE85C1E7D3CEF005B9221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68BAE83B1E7D3CED005B9221 /* Project object */;
+}

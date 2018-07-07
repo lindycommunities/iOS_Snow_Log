@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (4.0.8)
+  - JSONModel (1.7.0)
+  - KSToastView (0.5.7)
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - IQKeyboardManager
+  - JSONModel
+  - KSToastView
+  - MBProgressHUD (~> 0.9)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  KSToastView: aeb0ca50b44e9568b6f95b2d1ec53a3f016b50fc
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+PODFILE CHECKSUM: bf6ed41b8b2eb554e45682beb4f0c874c74a4179
+
+COCOAPODS: 1.2.0
